@@ -1,5 +1,6 @@
 import React from 'react';
 import FilterButton from './components/FilterButton';
+
 function App() {
   const scopes = [
     {

@@ -1,9 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 
 const CheckboxList = ({ scopes }) => {
+  const [filter, setFilter] = useState('');
+
+  const handleFilterChange = (event) => {
+    setFilter(event.target.value);
+  };
+
+  const filteredScopes = scopes.filter((scope) =>
+    scope.name.toLowerCase().includes(filter.toLowerCase())
+  );
   return (
     <div>
-      {scopes.map((scope, index) => (
+      <input
+        type="text"
+        placeholder="Search..."
+        value={filter}
+        onChange={handleFilterChange}
+      />
+    <div>
+      {filteredScopes.map((scope, index) => (
         <div key={index}>
           <input type="checkbox" id={`checkbox-${index}`} />
           <label htmlFor={`checkbox-${index}`}>
@@ -13,6 +30,7 @@ const CheckboxList = ({ scopes }) => {
           </label>
         </div>
       ))}
+    </div>
     </div>
   );
 };
