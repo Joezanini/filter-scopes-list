@@ -1,5 +1,5 @@
 import React from 'react';
-import CheckboxList from './components/CheckboxList';
+import ScopesPicker from './components/ScopesPicker';
 import scopes from './scopes';
 
 import './App.css';
@@ -21,7 +21,7 @@ function App() {
           </div>
         </div>
         <div className='col'>
-          <CheckboxList scopes={scopes} />
+          <ScopesPicker scopes={scopes} />
         </div>
       </div>
     </div>
