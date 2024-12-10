@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './CheckboxList.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 const CheckboxList = ({ scopes }) => {
   const [filter, setFilter] = useState('');
@@ -13,13 +15,15 @@ const CheckboxList = ({ scopes }) => {
   );
   return (
     <div>
-      <input
-        className='search'
-        type="text"
-        placeholder="Filter..."
-        value={filter}
-        onChange={handleFilterChange}
-      />
+      <div className='search-container'>
+        <input
+          className='search'
+          type="text"
+          value={filter}
+          onChange={handleFilterChange}
+        />
+        <FontAwesomeIcon icon={faSearch} className="search-icon" />
+      </div>
     <div>
       {filteredScopes.map((scope, index) => (
         <div key={index}>

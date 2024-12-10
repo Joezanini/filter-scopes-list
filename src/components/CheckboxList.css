@@ -38,4 +38,24 @@
     cursor: text;
     letter-spacing: normal;
     border: 1px solid rgb(204, 204, 204);
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.search-icon {
+    box-sizing: border-box;
+    direction: ltr;
+    left: 10px;
+    position: absolute;
+    vertical-align:auto;
+    white-space: pre;
+    background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.95);
+    display: flex;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
 }
