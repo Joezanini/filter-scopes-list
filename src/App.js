@@ -1,5 +1,5 @@
 import React from 'react';
-import FilterButton from './components/FilterButton';
+import CheckboxList from './components/CheckboxList';
 import scopes from './scopes';
 
 import './App.css';
@@ -21,7 +21,7 @@ function App() {
           </div>
         </div>
         <div className='col'>
-          <FilterButton scopes={scopes} />
+          <CheckboxList scopes={scopes} />
         </div>
       </div>
     </div>
