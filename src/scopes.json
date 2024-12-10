@@ -1,0 +1,1090 @@
+[
+  {
+    "name": "meeting:schedules_read",
+    "description": "Retrieve your Webex meeting lists and details",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Schedules",
+    "user_role": "User"
+  },
+  {
+    "name": "meeting:schedules_write",
+    "description": "Create, manage, or cancel your scheduled Webex meetings",
+    "product_type": "Meetings",
+    "access_type": "Write",
+    "resource_type": "Schedules",
+    "user_role": "User"
+  },
+  {
+    "name": "meeting:recordings_read",
+    "description": "Retrieve your Webex meeting recordings for playback",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Recordings",
+    "user_role": "User"
+  },
+  {
+    "name": "meeting:recordings_write",
+    "description": "Manage or delete your meeting recordings for playback",
+    "product_type": "Meetings",
+    "access_type": "Write",
+    "resource_type": "Recordings",
+    "user_role": "User"
+  },
+  {
+    "name": "meeting:preferences_read",
+    "description": "Retrieve your Webex meeting preferences",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Preferences",
+    "user_role": "User"
+  },
+  {
+    "name": "meeting:preferences_write",
+    "description": "Edit your Webex meeting preferences",
+    "product_type": "Meetings",
+    "access_type": "Write",
+    "resource_type": "Preferences",
+    "user_role": "User"
+  },
+  {
+    "name": "meeting:controls_read",
+    "description": "Read meeting control information for in-progress meetings",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Controls",
+    "user_role": "User"
+  },
+  {
+    "name": "meeting:controls_write",
+    "description": "Update meeting controls for in-progress meetings",
+    "product_type": "Meetings",
+    "access_type": "Write",
+    "resource_type": "Controls",
+    "user_role": "User"
+  },
+  {
+    "name": "meeting:participants_read",
+    "description": "Read participant information from meetings",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Participants",
+    "user_role": "User"
+  },
+  {
+    "name": "meeting:participants_write",
+    "description": "Manage participants within meetings",
+    "product_type": "Meetings",
+    "access_type": "Write",
+    "resource_type": "Participants",
+    "user_role": "User"
+  },
+  {
+    "name": "meeting:admin_participants_read",
+    "description": "Read participant information from meetings for all Webex users of your organization",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Participants",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:telephony_config_read",
+    "description": "Read and list telephony configuration",
+    "product_type": "Calling",
+    "access_type": "Read",
+    "resource_type": "Telephony",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:telephony_config_write",
+    "description": "Create, edit and delete telephony configuration",
+    "product_type": "Calling",
+    "access_type": "Write",
+    "resource_type": "Telephony",
+    "user_role": "Admin"
+  },
+  {
+    "name": "meeting:admin_schedule_read",
+    "description": "Retrieve meetings of all Webex users of your organization",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Schedules",
+    "user_role": "Admin"
+  },
+  {
+    "name": "meeting:admin_schedule_write",
+    "description": "Create, manage, or cancel meetings of all Webex users of your organization",
+    "product_type": "Meetings",
+    "access_type": "Write",
+    "resource_type": "Schedules",
+    "user_role": "Admin"
+  },
+  {
+    "name": "meeting:admin_recordings_read",
+    "description": "Retrieve recordings of all Webex users of your organization",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Recordings",
+    "user_role": "Admin"
+  },
+  {
+    "name": "meeting:admin_recordings_write",
+    "description": "Manage or delete recordings of all Webex users of your organization",
+    "product_type": "Meetings",
+    "access_type": "Write",
+    "resource_type": "Recordings",
+    "user_role": "Admin"
+  },
+  {
+    "name": "meeting:admin_transcripts_read",
+    "description": "Retrieve Webex meetings transcripts of all Webex users of your organization",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Transcripts",
+    "user_role": "Admin"
+  },
+  {
+    "name": "meeting:admin_preferences_write",
+    "description": "Manage meeting preferences of all Webex users of your organization",
+    "product_type": "Meetings",
+    "access_type": "Write",
+    "resource_type": "Preferences",
+    "user_role": "Admin"
+  },
+  {
+    "name": "meeting:admin_preferences_read",
+    "description": "Retrieve Webex meeting preferences of all Webex users of your organization",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Preferences",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-compliance:meetings_read",
+    "description": "Access to read recording and transcript resources in your user’s organization",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Compliance",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "meeting:transcripts_read",
+    "description": "Retrieve your Webex meetings transcripts",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Transcripts",
+    "user_role": "User"
+  },
+  {
+    "name": "spark-compliance:meetings_write",
+    "description": "Access to update/delete recordings and transcripts in your user’s organization",
+    "product_type": "Meetings",
+    "access_type": "Write",
+    "resource_type": "Compliance",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "spark-admin:workspace_locations_read",
+    "description": "See details for your workspace locations",
+    "product_type": "Devices",
+    "access_type": "Read",
+    "resource_type": "Workspaces",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:workspace_locations_write",
+    "description": "Create, modify and delete your workspace locations",
+    "product_type": "Devices",
+    "access_type": "Write",
+    "resource_type": "Workspaces",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:workspace_metrics_read",
+    "description": "See metrics for your workspaces",
+    "product_type": "Devices",
+    "access_type": "Read",
+    "resource_type": "Metrics",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:broadworks_billing_reports_read",
+    "description": "Read or List Billing User Reports associated with a Partner, subscribed to Webex for BroadWorks solution",
+    "product_type": "Calling",
+    "access_type": "Read",
+    "resource_type": "Billing",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:broadworks_billing_reports_write",
+    "description": "Create or Delete Billing User Reports associated with a Partner, subscribed to Webex for BroadWorks solution",
+    "product_type": "Calling",
+    "access_type": "Write",
+    "resource_type": "Billing",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark:all",
+    "description": "Full access to your Webex account",
+    "product_type": "General",
+    "access_type": "Full Access",
+    "resource_type": "All",
+    "user_role": "User"
+  },
+  {
+    "name": "spark-admin:calling_cdr_read",
+    "description": "Access comprehensive Call Detail Records for Webex Calling, including PII-protected phone numbers",
+    "product_type": "Calling",
+    "access_type": "Read",
+    "resource_type": "Call Details",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark:webrtc_calling",
+    "description": "Access webrtc services for Webex calling",
+    "product_type": "Calling",
+    "access_type": "Full Access",
+    "resource_type": "WebRTC",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:calls_read",
+    "description": "List all active calls you are part of / List call history from Webex Calling",
+    "product_type": "Calling",
+    "access_type": "Read",
+    "resource_type": "Calls",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:devices_read",
+    "description": "See details for your devices",
+    "product_type": "Devices",
+    "access_type": "Read",
+    "resource_type": "Devices",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:devices_write",
+    "description": "Modify and delete your devices",
+    "product_type": "Devices",
+    "access_type": "Write",
+    "resource_type": "Devices",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:memberships_read",
+    "description": "List people in the rooms you are in",
+    "product_type": "Messaging",
+    "access_type": "Read",
+    "resource_type": "Memberships",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:memberships_write",
+    "description": "Invite people to rooms on your behalf",
+    "product_type": "Messaging",
+    "access_type": "Write",
+    "resource_type": "Memberships",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:messages_read",
+    "description": "Read the content of rooms that you are in",
+    "product_type": "Messaging",
+    "access_type": "Read",
+    "resource_type": "Messages",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:messages_write",
+    "description": "Post and delete messages on your behalf",
+    "product_type": "Messaging",
+    "access_type": "Write",
+    "resource_type": "Messages",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:organizations_read",
+    "description": "Access to read your user's organizations",
+    "product_type": "Security and Identity",
+    "access_type": "Read",
+    "resource_type": "Organizations",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:people_read",
+    "description": "Read your users' company directory",
+    "product_type": "Security and Identity",
+    "access_type": "Read",
+    "resource_type": "People",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:people_write",
+    "description": "Ability to modify the authenticated user's avatar and some Webex Calling details",
+    "product_type": "Security and Identity",
+    "access_type": "Write",
+    "resource_type": "People",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:places_read",
+    "description": "See details for places and place services you manage",
+    "product_type": "Devices",
+    "access_type": "Read",
+    "resource_type": "Places",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:places_write",
+    "description": "Create, modify and delete places and place services you manage",
+    "product_type": "Devices",
+    "access_type": "Write",
+    "resource_type": "Places",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:rooms_read",
+    "description": "List the titles of rooms that you are in",
+    "product_type": "Messaging",
+    "access_type": "Read",
+    "resource_type": "Rooms",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:rooms_write",
+    "description": "Manage rooms on your behalf",
+    "product_type": "Messaging",
+    "access_type": "Write",
+    "resource_type": "Rooms",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:team_memberships_read",
+    "description": "List the people in the teams your user belongs to",
+    "product_type": "Messaging",
+    "access_type": "Read",
+    "resource_type": "Team Memberships",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:team_memberships_write",
+    "description": "Add people to teams on your users' behalf",
+    "product_type": "Messaging",
+    "access_type": "Write",
+    "resource_type": "Team Memberships",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:teams_read",
+    "description": "List the teams your user's a member of",
+    "product_type": "Messaging",
+    "access_type": "Read",
+    "resource_type": "Teams",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:teams_write",
+    "description": "Create teams on your users' behalf",
+    "product_type": "Messaging",
+    "access_type": "Write",
+    "resource_type": "Teams",
+    "user_role": "User"
+  },
+  {
+    "name": "spark-compliance:recordings_read",
+    "description": "Access to read converged recording resources in your user’s organization",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Compliance",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "spark-compliance:recordings_write",
+    "description": "Access to update/delete converged recording resources in your user’s organization",
+    "product_type": "Meetings",
+    "access_type": "Write",
+    "resource_type": "Compliance",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "spark:xapi_statuses",
+    "description": "Retrieve all information from RoomOS-enabled devices",
+    "product_type": "Devices",
+    "access_type": "Read",
+    "resource_type": "RoomOS",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:xapi_commands",
+    "description": "Execute all commands on RoomOS-enabled devices",
+    "product_type": "Devices",
+    "access_type": "Write",
+    "resource_type": "RoomOS",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:xsi",
+    "description": "Access to your Webex Calling resources (e.g. calls & call settings)",
+    "product_type": "Calling",
+    "access_type": "Full Access",
+    "resource_type": "Calling",
+    "user_role": "User"
+  },
+  {
+    "name": "spark-admin:devices_read",
+    "description": "See details for any device in your organization",
+    "product_type": "Devices",
+    "access_type": "Read",
+    "resource_type": "Devices",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:devices_write",
+    "description": "Create, update and delete devices and device configurations in your organization",
+    "product_type": "Devices",
+    "access_type": "Write",
+    "resource_type": "Devices",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:licenses_read",
+    "description": "Access to read licenses available in your user's organizations",
+    "product_type": "Security and Identity",
+    "access_type": "Read",
+    "resource_type": "Licenses",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:organizations_read",
+    "description": "Access to read your user's organizations",
+    "product_type": "Security and Identity",
+    "access_type": "Read",
+    "resource_type": "Organizations",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:organizations_write",
+    "description": "Access to change or delete your user's organizations",
+    "product_type": "Security and Identity",
+    "access_type": "Write",
+    "resource_type": "Organizations",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:people_read",
+    "description": "Access to read your user's company directory",
+    "product_type": "Security and Identity",
+    "access_type": "Read",
+    "resource_type": "People",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:people_write",
+    "description": "Access to write to your user's company directory",
+    "product_type": "Security and Identity",
+    "access_type": "Write",
+    "resource_type": "People",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:places_read",
+    "description": "See details for any places and place service in your organization",
+    "product_type": "Devices",
+    "access_type": "Read",
+    "resource_type": "Places",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:places_write",
+    "description": "Create, update and delete any place and place service in your organization",
+    "product_type": "Devices",
+    "access_type": "Write",
+    "resource_type": "Places",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:resource_group_memberships_read",
+    "description": "Access to read your organization's resource group memberships",
+    "product_type": "Security and Identity",
+    "access_type": "Read",
+    "resource_type": "Resource Groups",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:resource_group_memberships_write",
+    "description": "Access to update your organization's resource group memberships",
+    "product_type": "Security and Identity",
+    "access_type": "Write",
+    "resource_type": "Resource Groups",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:resource_groups_read",
+    "description": "Access to read your organization's resource groups",
+    "product_type": "Security and Identity",
+    "access_type": "Read",
+    "resource_type": "Resource Groups",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:roles_read",
+    "description": "Access to read roles available in your user's organization",
+    "product_type": "Security and Identity",
+    "access_type": "Read",
+    "resource_type": "Roles",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:call_qualities_read",
+    "description": "Access to read organization's call qualities",
+    "product_type": "Calling",
+    "access_type": "Read",
+    "resource_type": "Call Quality",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:workspaces_read",
+    "description": "See details for your workspaces",
+    "product_type": "Devices",
+    "access_type": "Read",
+    "resource_type": "Workspaces",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:workspaces_write",
+    "description": "Create, modify, and delete your workspaces",
+    "product_type": "Devices",
+    "access_type": "Write",
+    "resource_type": "Workspaces",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:wholesale_sub_partners_read",
+    "description": "Read or list sub-partners associated with a partner, subscribed to the Webex for Wholesale solution",
+    "product_type": "Wholesale",
+    "access_type": "Read",
+    "resource_type": "Sub-Partners",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:wholesale_sub_partners_write",
+    "description": "Create or delete sub-partners associated with a partner, subscribed to the Webex for Wholesale solution",
+    "product_type": "Wholesale",
+    "access_type": "Write",
+    "resource_type": "Sub-Partners",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-compliance:events_read",
+    "description": "Access to read events in your user's organization",
+    "product_type": "Compliance",
+    "access_type": "Read",
+    "resource_type": "Events",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "spark-compliance:memberships_read",
+    "description": "Access to read memberships in your user's organization",
+    "product_type": "Compliance",
+    "access_type": "Read",
+    "resource_type": "Memberships",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "spark-compliance:memberships_write",
+    "description": "Access to create/update/delete memberships in your user's organization",
+    "product_type": "Compliance",
+    "access_type": "Write",
+    "resource_type": "Memberships",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "spark-compliance:messages_read",
+    "description": "Access to read messages in your user's organization",
+    "product_type": "Compliance",
+    "access_type": "Read",
+    "resource_type": "Messages",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "spark-compliance:messages_write",
+    "description": "Delete messages in all spaces in your user's organization",
+    "product_type": "Compliance",
+    "access_type": "Write",
+    "resource_type": "Messages",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "spark-compliance:rooms_read",
+    "description": "Access to read rooms in your user's organization",
+    "product_type": "Compliance",
+    "access_type": "Read",
+    "resource_type": "Rooms",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "spark-compliance:rooms_write",
+    "description": "Access to modify rooms in your user's organization",
+    "product_type": "Compliance",
+    "access_type": "Write",
+    "resource_type": "Rooms",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "spark-compliance:team_memberships_read",
+    "description": "Access to read team memberships in your user's organization",
+    "product_type": "Compliance",
+    "access_type": "Read",
+    "resource_type": "Team Memberships",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "spark-compliance:team_memberships_write",
+    "description": "Access to update team memberships in your user's organization",
+    "product_type": "Compliance",
+    "access_type": "Write",
+    "resource_type": "Team Memberships",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "spark-compliance:teams_read",
+    "description": "Access to read teams in your user's organization",
+    "product_type": "Compliance",
+    "access_type": "Read",
+    "resource_type": "Teams",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "spark-admin:broadworks_enterprises_read",
+    "description": "Read or List BroadWorks Enterprise, provisioned as part of Webex for BroadWorks Solution",
+    "product_type": "BroadWorks",
+    "access_type": "Read",
+    "resource_type": "Enterprises",
+    "user_role": "Admin"
+  },
+  {
+    "name": "identity:placeonetimepassword_create",
+    "description": "Access to a one time password to a place to create an activation code",
+    "product_type": "Security and Identity",
+    "access_type": "Write",
+    "resource_type": "One-Time Password",
+    "user_role": "Admin"
+  },
+  {
+    "name": "identity:one_time_password",
+    "description": "Request a one time password for people, devices, and things",
+    "product_type": "Security and Identity",
+    "access_type": "Write",
+    "resource_type": "One-Time Password",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-compliance:webhooks_write",
+    "description": "Delete org wide webhooks",
+    "product_type": "Compliance",
+    "access_type": "Write",
+    "resource_type": "Webhooks",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "spark-compliance:webhooks_read",
+    "description": "Inspect org wide webhooks",
+    "product_type": "Compliance",
+    "access_type": "Read",
+    "resource_type": "Webhooks",
+    "user_role": "Compliance"
+  },
+  {
+    "name": "identity:contact",
+    "description": "Manage organizational contacts - read, create, update, delete, including bulk operations",
+    "product_type": "Security and Identity",
+    "access_type": "Full Access",
+    "resource_type": "Contacts",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark:calls_write",
+    "description": "Allow users to invoke call commands on themselves",
+    "product_type": "Calling",
+    "access_type": "Write",
+    "resource_type": "Calls",
+    "user_role": "User"
+  },
+  {
+    "name": "spark-admin:wholesale_billing_reports_read",
+    "description": "Read or List Wholesale Billing Reports associated with a Partner, subscribed to Webex for Wholesale solution",
+    "product_type": "Wholesale",
+    "access_type": "Read",
+    "resource_type": "Billing",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:hybrid_clusters_read",
+    "description": "Access to read hybrid clusters for your organization",
+    "product_type": "Hybrid",
+    "access_type": "Read",
+    "resource_type": "Clusters",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:wholesale_billing_reports_write",
+    "description": "Create or Delete Wholesale Billing Reports associated with a Partner, subscribed to Webex for Wholesale solution",
+    "product_type": "Wholesale",
+    "access_type": "Write",
+    "resource_type": "Billing",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:hybrid_connectors_read",
+    "description": "Access to read hybrid connectors for your organization",
+    "product_type": "Hybrid",
+    "access_type": "Read",
+    "resource_type": "Connectors",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:broadworks_subscribers_read",
+    "description": "Read or List BroadWorks Subscribers, provisioned as part of Webex for BroadWorks Solution",
+    "product_type": "BroadWorks",
+    "access_type": "Read",
+    "resource_type": "Subscribers",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:broadworks_subscribers_write",
+    "description": "Provision, Update or Remove a BroadWorks Subscriber as part of Webex for BroadWorks Solution",
+    "product_type": "BroadWorks",
+    "access_type": "Write",
+    "resource_type": "Subscribers",
+    "user_role": "Admin"
+  },
+  {
+    "name": "analytics:read_all",
+    "description": "Access to read meeting quality metrics for your organization",
+    "product_type": "Analytics",
+    "access_type": "Read",
+    "resource_type": "Quality Metrics",
+    "user_role": "Admin"
+  },
+  {
+    "name": "audit:events_read",
+    "description": "Access to the audit log for an organization",
+    "product_type": "Audit",
+    "access_type": "Read",
+    "resource_type": "Audit Logs",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:wholesale_customers_write",
+    "description": "Provision, Update or Remove a Customer as part of Webex Wholesale Solution",
+    "product_type": "Wholesale",
+    "access_type": "Write",
+    "resource_type": "Customers",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:wholesale_customers_read",
+    "description": "Read or List Customers, provisioned as part of Webex Wholesale Solution",
+    "product_type": "Wholesale",
+    "access_type": "Read",
+    "resource_type": "Customers",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:wholesale_subscribers_write",
+    "description": "Provision, Update or Remove a Subscriber as part of Webex Wholesale Solution",
+    "product_type": "Wholesale",
+    "access_type": "Write",
+    "resource_type": "Subscribers",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:wholesale_subscribers_read",
+    "description": "Read or List Subscribers, provisioned as part of Webex Wholesale Solution",
+    "product_type": "Wholesale",
+    "access_type": "Read",
+    "resource_type": "Subscribers",
+    "user_role": "Admin"
+  },
+  {
+    "name": "cjp:user",
+    "description": "cjp:user",
+    "product_type": "Contact Center",
+    "access_type": "Full Access",
+    "resource_type": "User",
+    "user_role": "User"
+  },
+  {
+    "name": "cjp:config_read",
+    "description": "Read configurations details like teams, queue, sites, entry-points of your Contact Center",
+    "product_type": "Contact Center",
+    "access_type": "Read",
+    "resource_type": "Configurations",
+    "user_role": "Admin"
+  },
+  {
+    "name": "cjp:config_write",
+    "description": "cjp:config_write",
+    "product_type": "Contact Center",
+    "access_type": "Write",
+    "resource_type": "Configurations",
+    "user_role": "Admin"
+  },
+  {
+    "name": "cjp:config",
+    "description": "cjp:config",
+    "product_type": "Contact Center",
+    "access_type": "Full Access",
+    "resource_type": "Configurations",
+    "user_role": "Admin"
+  },
+  {
+    "name": "cloud-contact-center:pod_read",
+    "description": "cloud-contact-center:pod_read",
+    "product_type": "Contact Center",
+    "access_type": "Read",
+    "resource_type": "Pod",
+    "user_role": "Admin"
+  },
+  {
+    "name": "cloud-contact-center:pod_conv",
+    "description": "cloud-contact-center:pod_conv",
+    "product_type": "Contact Center",
+    "access_type": "Full Access",
+    "resource_type": "Pod",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:video_mesh_api_read",
+    "description": "Retrieve analytics and monitoring data of Video Mesh deployments",
+    "product_type": "Video Mesh",
+    "access_type": "Read",
+    "resource_type": "Analytics",
+    "user_role": "Admin"
+  },
+  {
+    "name": "identity:groups_rw",
+    "description": "Read Write groups",
+    "product_type": "Security and Identity",
+    "access_type": "Write",
+    "resource_type": "Groups",
+    "user_role": "Admin"
+  },
+  {
+    "name": "identity:groups_read",
+    "description": "Read group",
+    "product_type": "Security and Identity",
+    "access_type": "Read",
+    "resource_type": "Groups",
+    "user_role": "Admin"
+  },
+  {
+    "name": "identity:people_rw",
+    "description": "Manage people in your organization via SCIM API",
+    "product_type": "Security and Identity",
+    "access_type": "Write",
+    "resource_type": "People",
+    "user_role": "Admin"
+  },
+  {
+    "name": "identity:people_read",
+    "description": "Lookup people via SCIM API",
+    "product_type": "Security and Identity",
+    "access_type": "Read",
+    "resource_type": "People",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark:telephony_config_read",
+    "description": "Read and list your telephony configuration",
+    "product_type": "Calling",
+    "access_type": "Read",
+    "resource_type": "Telephony",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:telephony_config_write",
+    "description": "Create, edit and delete your telephony configuration",
+    "product_type": "Calling",
+    "access_type": "Write",
+    "resource_type": "Telephony",
+    "user_role": "User"
+  },
+  {
+    "name": "spark-admin:video_mesh_api_webhook_write",
+    "description": "List and register org-wide webhooks for Video Mesh alerts and notifications",
+    "product_type": "Video Mesh",
+    "access_type": "Write",
+    "resource_type": "Webhooks",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:video_mesh_api_write",
+    "description": "Initiate execution of Video Mesh automated tests",
+    "product_type": "Video Mesh",
+    "access_type": "Write",
+    "resource_type": "Automated Tests",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:locations_write",
+    "description": "Create and edit location configuration",
+    "product_type": "Locations",
+    "access_type": "Write",
+    "resource_type": "Configurations",
+    "user_role": "Admin"
+  },
+  {
+    "name": "identity:tokens_read",
+    "description": "Admin can list token Ids for a user",
+    "product_type": "Security and Identity",
+    "access_type": "Read",
+    "resource_type": "Tokens",
+    "user_role": "Admin"
+  },
+  {
+    "name": "identity:tokens_write",
+    "description": "Admin can delete token for a user",
+    "product_type": "Security and Identity",
+    "access_type": "Write",
+    "resource_type": "Tokens",
+    "user_role": "Admin"
+  },
+  {
+    "name": "meeting:admin_config_read",
+    "description": "Retrieve Webex meeting configurations as an administrator",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Configurations",
+    "user_role": "Admin"
+  },
+  {
+    "name": "meeting:admin_config_write",
+    "description": "Manage Webex meeting configurations as an administrator",
+    "product_type": "Meetings",
+    "access_type": "Write",
+    "resource_type": "Configurations",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:locations_read",
+    "description": "Read and list location configuration",
+    "product_type": "Locations",
+    "access_type": "Read",
+    "resource_type": "Configurations",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark:applications_token",
+    "description": "Retrieve Service App token. Not for FedRAMP customers",
+    "product_type": "Applications",
+    "access_type": "Read",
+    "resource_type": "Tokens",
+    "user_role": "User"
+  },
+  {
+    "name": "application:webhooks_write",
+    "description": "Register Service App authorization webhook. Not for FedRAMP customers",
+    "product_type": "Applications",
+    "access_type": "Write",
+    "resource_type": "Webhooks",
+    "user_role": "User"
+  },
+  {
+    "name": "application:webhooks_read",
+    "description": "List webhooks for Service App authorization. Not for FedRAMP customers",
+    "product_type": "Applications",
+    "access_type": "Read",
+    "resource_type": "Webhooks",
+    "user_role": "User"
+  },
+  {
+    "name": "webexsquare:get_conversation",
+    "description": "Access Directory Search Service endpoints",
+    "product_type": "Messaging",
+    "access_type": "Read",
+    "resource_type": "Directory Search",
+    "user_role": "User"
+  },
+  {
+    "name": "dedicated-instance-uc:admin_perfmon_read",
+    "description": "Register a webhook for dedicated instance performance counters",
+    "product_type": "Dedicated Instance",
+    "access_type": "Read",
+    "resource_type": "Performance Monitoring",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:recordings_read",
+    "description": "Read access to converged recording resources for admins in your user's organization",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Recordings",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:recordings_write",
+    "description": "Update and delete access to converged recording resources for admins in your user's organization",
+    "product_type": "Meetings",
+    "access_type": "Write",
+    "resource_type": "Recordings",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark:recordings_read",
+    "description": "Read access to converged recordings for recording owners",
+    "product_type": "Meetings",
+    "access_type": "Read",
+    "resource_type": "Recordings",
+    "user_role": "User"
+  },
+  {
+    "name": "spark:recordings_write",
+    "description": "Updated and delete access to converged recordings for recording owners",
+    "product_type": "Meetings",
+    "access_type": "Write",
+    "resource_type": "Recordings",
+    "user_role": "User"
+  },
+  {
+    "name": "identity:organizations_read",
+    "description": "Read an organizations data, like name",
+    "product_type": "Security and Identity",
+    "access_type": "Read",
+    "resource_type": "Organizations",
+    "user_role": "Admin"
+  },
+  {
+    "name": "identity:organizations_rw",
+    "description": "Modify organizations data like name",
+    "product_type": "Security and Identity",
+    "access_type": "Write",
+    "resource_type": "Organizations",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:telephony_pstn_write",
+    "description": "Scope to limit the write access for partner telephony PSTN",
+    "product_type": "Calling",
+    "access_type": "Write",
+    "resource_type": "Telephony",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:telephony_pstn_read",
+    "description": "Scope to limit the read access for partner telephony PSTN",
+    "product_type": "Calling",
+    "access_type": "Read",
+    "resource_type": "Telephony",
+    "user_role": "Admin"
+  },
+  {
+    "name": "spark-admin:broadworks_enterprises_write",
+    "description": "Change BroadWorks Enterprise configuration, provisioned as part of Webex for BroadWorks Solution",
+    "product_type": "BroadWorks",
+    "access_type": "Write",
+    "resource_type": "Enterprises",
+    "user_role": "Admin"
+  }
+]
