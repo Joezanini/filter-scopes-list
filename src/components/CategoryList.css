@@ -1,0 +1,16 @@
+.category-list {
+    box-sizing: border-box;
+    outline: rgba(0, 0, 0, 0.95) none 0px;
+    background: none 0% 0% / auto repeat scroll padding-box border-box rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-block-size: 440px;
+    max-inline-size: 540px;
+    min-inline-size: 0px;
+    padding: 8px;
+    font: 16px / 24px Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
