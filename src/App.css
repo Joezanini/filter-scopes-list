@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'CiscoSansTT Regular';
+    src: url('/public/CiscoSansTTRegular.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'CiscoSansTT Light';
+    src: url('/public/CiscoSansTTLight.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.App {
+    display: flex;
+    margin: 20px;
+    font-family: CiscoSansTT Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info {
+    flex: 0;
+    margin: 10px;
+    padding: 20px;
+    min-width: 250px;
+}
+
+.info a {
+  box-sizing: border-box;
+  background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);
+  color: rgb(0, 122, 163);
+  cursor: pointer;
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "CiscoSansTT Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.15008px;
+  text-decoration: none;
+}
+
+.col {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+}
+
+span {
+    box-sizing: border-box;
+    background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 20px;
+    cursor: default;
+    font-family: "CiscoSansTT Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 25px;
+    letter-spacing: 0.15008px;
+}
