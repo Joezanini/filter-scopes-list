@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './CheckboxList.css'
 
 const CheckboxList = ({ scopes }) => {
   const [filter, setFilter] = useState('');
@@ -26,7 +26,7 @@ const CheckboxList = ({ scopes }) => {
           <label htmlFor={`checkbox-${index}`}>
             <strong className='scope-name'>{scope.name}</strong>
             <br/>
-            <small className='scope-description'>{scope.description}</small>
+            <small className='scope-description'>&emsp;&ensp;&nbsp;{scope.description}</small>
           </label>
         </div>
       ))}
