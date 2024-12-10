@@ -14,8 +14,9 @@ const CheckboxList = ({ scopes }) => {
   return (
     <div>
       <input
+        className='search'
         type="text"
-        placeholder="Search..."
+        placeholder="Filter..."
         value={filter}
         onChange={handleFilterChange}
       />

@@ -21,3 +21,21 @@
     cursor: pointer;
     letter-spacing: 0.15008px;
 }
+
+.search {
+    font: 400 14px / 24.0001px "CiscoSansTT Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: clip;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 160, 209, 0.25) 0px 0px 1.33685px 0.668427px;
+    outline: rgb(18, 18, 18) none 0px;
+    border-radius: 4px;
+    height: 36px;
+    padding: 0px 16px;
+    transition: box-shadow 0.15s ease-in;
+    width: 464px;
+    background: none 0% 0%;
+    color: rgb(18, 18, 18);
+    cursor: text;
+    letter-spacing: normal;
+    border: 1px solid rgb(204, 204, 204);
+}
